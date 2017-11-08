@@ -3,13 +3,13 @@
 namespace square {
   class Program {
     static void Main (string[] args) {
-      Console.WriteLine ("a");
+      Console.Write ("a: ");
       int a = int.Parse (Console.ReadLine ());
-      Console.WriteLine ("b");
+      Console.Write ("b: ");
       int b = int.Parse (Console.ReadLine ());
-      Console.WriteLine ("coords x");
+      Console.Write ("coord x: ");
       int x = int.Parse (Console.ReadLine ());
-      Console.WriteLine ("coords y");
+      Console.Write ("coord y: ");
       int y = int.Parse (Console.ReadLine ());
       square (a, b, x, y);
     }
@@ -35,7 +35,7 @@ namespace square {
           }
         }
       }
-      Console.WriteLine();
+      Console.WriteLine ();
     }
   }
 }
